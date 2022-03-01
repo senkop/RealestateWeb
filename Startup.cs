@@ -20,8 +20,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-//using Try.BL.Interface;
-//using Try.BL.Repository;
+using Try.BL.Interface;
+using Try.BL.Repo;
 using Try.DAL.Database;
 using AutoMapper;
 using Try.BL.Mapper;
@@ -45,7 +45,7 @@ namespace Try
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+          services.AddScoped<IEstateRep, EstateRep>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -53,6 +53,7 @@ namespace Try
             });
             services.AddDbContextPool<DbContainer>(opts =>
           opts.UseSqlServer(Configuration.GetConnectionString("SharpDbConnection")));
+            services.AddAutoMapper(x => x.AddProfile(new DomainProfile()));
 
         }
 
@@ -67,6 +68,7 @@ namespace Try
             }
 
             app.UseRouting();
+            app.UseEndpoints(a => a.MapDefaultControllerRoute());
 
             app.UseAuthorization();
 

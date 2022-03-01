@@ -139,7 +139,10 @@ namespace Try.Migrations
                     b.Property<string>("Filter")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Image")
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Location")
@@ -335,30 +338,56 @@ namespace Try.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Try.Models.AdsVM", b =>
+            modelBuilder.Entity("Try.Models.EstatesVM", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Description")
-                        .IsRequired()
+                    b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UsersId")
+                    b.Property<string>("Filter")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<int>("Propertiesid")
+                        .HasColumnType("int");
+
+                    b.Property<int>("St_num")
+                        .HasColumnType("int");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Street")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Usersid")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UsersId");
+                    b.HasIndex("Propertiesid");
 
-                    b.ToTable("AdsVM");
+                    b.HasIndex("Usersid");
+
+                    b.ToTable("EstatesVM");
                 });
 
             modelBuilder.Entity("Try.DAL.Entity.Ads", b =>
@@ -474,11 +503,21 @@ namespace Try.Migrations
                     b.Navigation("Usergroup");
                 });
 
-            modelBuilder.Entity("Try.Models.AdsVM", b =>
+            modelBuilder.Entity("Try.Models.EstatesVM", b =>
                 {
+                    b.HasOne("Try.DAL.Entity.Properties", "Properties")
+                        .WithMany()
+                        .HasForeignKey("Propertiesid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Try.DAL.Entity.Users", "Users")
                         .WithMany()
-                        .HasForeignKey("UsersId");
+                        .HasForeignKey("Usersid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Properties");
 
                     b.Navigation("Users");
                 });

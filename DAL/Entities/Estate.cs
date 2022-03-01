@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -12,8 +14,9 @@ namespace Try.DAL.Entity
     {
         [Key]
         public int Id { get; set; }
-        public  string Image { get; set; }
-        [MaxLength]
+        
+        public string ImageName { get; set; }
+        public string ImageUrl { get; set; }
         public string Location { get; set; }
         public string State { get; set; }
         public string City { get; set; }
@@ -23,7 +26,9 @@ namespace Try.DAL.Entity
         [MaxLength]
         public string Description { get; set; }
         public string Filter { get; set; }
+        
         public int Usersid { get; set; }
+
         [ForeignKey("Usersid")]
 
         public Users Users { get; set; }

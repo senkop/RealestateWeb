@@ -203,33 +203,13 @@ namespace Try.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "AdsVM",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UsersId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_AdsVM", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_AdsVM_Users_UsersId",
-                        column: x => x.UsersId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Estate",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ImageName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Location = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     State = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     City = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -259,6 +239,42 @@ namespace Try.Migrations
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Estate_Users_Usersid",
+                        column: x => x.Usersid,
+                        principalTable: "Users",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "EstatesVM",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ImageName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Location = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    State = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    City = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Street = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    St_num = table.Column<int>(type: "int", nullable: false),
+                    Price = table.Column<double>(type: "float", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Filter = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Usersid = table.Column<int>(type: "int", nullable: false),
+                    Propertiesid = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_EstatesVM", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_EstatesVM_Properties_Propertiesid",
+                        column: x => x.Propertiesid,
+                        principalTable: "Properties",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_EstatesVM_Users_Usersid",
                         column: x => x.Usersid,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -297,11 +313,6 @@ namespace Try.Migrations
                 column: "Usersid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_AdsVM_UsersId",
-                table: "AdsVM",
-                column: "UsersId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_client_interesets_Clientsid",
                 table: "client_interesets",
                 column: "Clientsid");
@@ -337,6 +348,16 @@ namespace Try.Migrations
                 column: "Usersid");
 
             migrationBuilder.CreateIndex(
+                name: "IX_EstatesVM_Propertiesid",
+                table: "EstatesVM",
+                column: "Propertiesid");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EstatesVM_Usersid",
+                table: "EstatesVM",
+                column: "Usersid");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Feedback_Clientsid",
                 table: "Feedback",
                 column: "Clientsid");
@@ -363,13 +384,13 @@ namespace Try.Migrations
                 name: "Ads");
 
             migrationBuilder.DropTable(
-                name: "AdsVM");
-
-            migrationBuilder.DropTable(
                 name: "client_interesets");
 
             migrationBuilder.DropTable(
                 name: "client_order");
+
+            migrationBuilder.DropTable(
+                name: "EstatesVM");
 
             migrationBuilder.DropTable(
                 name: "Feedback");

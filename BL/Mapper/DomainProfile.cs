@@ -6,6 +6,7 @@ using AutoMapper;
 //using Try.DAL.Entities;
 using Try.DAL.Entity;
 using Try.Models;
+//using Try.Models;
 
 namespace Try.BL.Mapper
 {
@@ -15,49 +16,49 @@ namespace Try.BL.Mapper
         
         public DomainProfile()
         {
-            CreateMap<Ads, AdsVM>();
-            CreateMap<AdsVM, Ads>();
+            //CreateMap<Ads, AdsVM>();
+            //CreateMap<AdsVM, Ads>();
 
-            CreateMap<Client_interesets, Client_interesetsVM>();
-            CreateMap<Client_interesetsVM, Client_interesets>();
+            //CreateMap<Client_interesets, Client_interesetsVM>();
+            //CreateMap<Client_interesetsVM, Client_interesets>();
 
-            CreateMap<Ads, AdsVM>();
-            CreateMap<AdsVM, Ads>();
+            //CreateMap<Ads, AdsVM>();
+            //CreateMap<AdsVM, Ads>();
 
-            CreateMap<Client_orders, Client_ordersVM>();
-            CreateMap<Client_ordersVM, Client_orders>();
+            //CreateMap<Client_orders, Client_ordersVM>();
+            //CreateMap<Client_ordersVM, Client_orders>();
 
-            CreateMap<Ads, AdsVM>();
-            CreateMap<AdsVM, Ads>();
+            //CreateMap<Ads, AdsVM>();
+            //CreateMap<AdsVM, Ads>();
 
-            CreateMap<Clients, ClientsVM>();
-            CreateMap<ClientsVM, Clients>();
+            //CreateMap<Clients, ClientsVM>();
+            //CreateMap<ClientsVM, Clients>();
 
-            CreateMap<Estate, EstateVM>();
-            CreateMap<EstateVM, Estate>();
+            CreateMap<Estate, EstatesVM>();
+            CreateMap<EstatesVM, Estate>();
 
-            CreateMap<Feedback, FeedbackVM>();
-            CreateMap<FeedbackVM, Feedback>();
+            //CreateMap<Feedback, FeedbackVM>();
+            //CreateMap<FeedbackVM, Feedback>();
 
-            CreateMap<Interests, InterestsVM>();
-            CreateMap<InterestsVM, Interests>();
+            //CreateMap<Interests, InterestsVM>();
+            //CreateMap<InterestsVM, Interests>();
 
-            CreateMap<Order_Estate, Order_EstateVM>();
-            CreateMap<Orders, Order_Estate>();
-
-
-            CreateMap<Orders, OrdersVM>();
-            CreateMap<OrdersVM, Orders>();
-
-            CreateMap<Properties, PropertiesVM>();
-            CreateMap<PropertiesVM, Properties>();
-
-            CreateMap<UserGroup, UserGroupVM>();
-            CreateMap<UserGroupVM, UserGroup>();
+            //CreateMap<Order_Estate, Order_EstateVM>();
+            //CreateMap<Orders, Order_Estate>();
 
 
-            CreateMap<Users, UsersVM>();
-            CreateMap<UsersVM, Users>();
+            //CreateMap<Orders, OrdersVM>();
+            //CreateMap<OrdersVM, Orders>();
+
+            //CreateMap<Properties, PropertiesVM>();
+            //CreateMap<PropertiesVM, Properties>();
+
+            //CreateMap<UserGroup, UserGroupVM>();
+            //CreateMap<UserGroupVM, UserGroup>();
+
+
+            //CreateMap<Users, UsersVM>();
+            //CreateMap<UsersVM, Users>();
 
         }
 
