@@ -34,8 +34,8 @@ namespace Try.BL.Mapper
             //CreateMap<Clients, ClientsVM>();
             //CreateMap<ClientsVM, Clients>();
 
-            CreateMap<Estate, EstatesVM>();
-            CreateMap<EstatesVM, Estate>();
+            //CreateMap<Estate, EstatesVM>();
+            //CreateMap<EstatesVM, Estate>();
 
             //CreateMap<Feedback, FeedbackVM>();
             //CreateMap<FeedbackVM, Feedback>();

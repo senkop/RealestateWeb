@@ -16,134 +16,167 @@ namespace Try.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.14")
+                .HasAnnotation("ProductVersion", "5.0.16")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Try.DAL.Entity.Ads", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
-                    b.Property<int>("Usersid")
-                        .HasColumnType("int");
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Usersid");
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
 
-                    b.ToTable("Ads");
+                    b.ToTable("AspNetRoles");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Client_interesets", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Clientsid")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Interestsid")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Clientsid");
-
-                    b.HasIndex("Interestsid");
-
-                    b.ToTable("client_interesets");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Client_orders", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("Clientsid")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Ordersid")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Clientsid");
-
-                    b.HasIndex("Ordersid");
-
-                    b.ToTable("client_order");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Clients", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Email")
+                    b.Property<string>("ClaimType")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Fname")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Lname")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Password")
+                    b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Phone")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<DateTime>("Signupdate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clients");
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens");
                 });
 
             modelBuilder.Entity("Try.DAL.Entity.Estate", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdEstate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("Bathroom_numbers")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Buy")
+                        .HasColumnType("bit");
+
                     b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CompanyName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("EstateId")
+                    b.Property<int>("Floors_numbers")
                         .HasColumnType("int");
 
-                    b.Property<string>("Filter")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("Garden")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)");
@@ -151,7 +184,7 @@ namespace Try.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
-                    b.Property<int>("Propertiesid")
+                    b.Property<int>("Rooms_numbers")
                         .HasColumnType("int");
 
                     b.Property<int>("St_num")
@@ -162,405 +195,285 @@ namespace Try.Migrations
 
                     b.Property<string>("Street")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Usersid")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("EstateId");
-
-                    b.HasIndex("Propertiesid");
-
-                    b.HasIndex("Usersid");
-
-                    b.ToTable("Estate");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Feedback", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("Clientsid")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Number")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Problem")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Solution")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Clientsid");
-
-                    b.ToTable("Feedback");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Interests", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Type")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<string>("cover")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.ToTable("Interests");
+                    b.Property<string>("image1")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("image2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("image3")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("rent")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("size")
+                        .HasColumnType("float");
+
+                    b.HasKey("IdEstate");
+
+                    b.ToTable("Estate");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Order_Estate", b =>
+            modelBuilder.Entity("Try.DAL.Entity.FavoriteEstate", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("FavoriteId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Estateid")
+                    b.Property<int>("EstateId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Orderid")
-                        .HasColumnType("int");
+                    b.Property<string>("UsersId")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("Id");
+                    b.HasKey("FavoriteId");
 
-                    b.HasIndex("Estateid");
+                    b.HasIndex("EstateId");
 
-                    b.HasIndex("Orderid");
+                    b.HasIndex("UsersId");
 
-                    b.ToTable("Order_Estate");
+                    b.ToTable("FavoriteEstate");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Orders", b =>
+            modelBuilder.Entity("Try.DAL.Entity.RecommendedEstate", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("RecommendedEstateId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Status")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Properties", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Images")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Num_bathrooms")
+                    b.Property<int>("EstateId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Num_rooms")
-                        .HasColumnType("int");
+                    b.Property<string>("UsersId")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Size")
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("RecommendedEstateId");
 
-                    b.HasKey("Id");
+                    b.HasIndex("EstateId");
 
-                    b.ToTable("Properties");
-                });
+                    b.HasIndex("UsersId");
 
-            modelBuilder.Entity("Try.DAL.Entity.UserGroup", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Role")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Usergroup");
+                    b.ToTable("RecommendedEstate");
                 });
 
             modelBuilder.Entity("Try.DAL.Entity.Users", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Fname")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Lname")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Password")
+                    b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Phone")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
 
-                    b.Property<DateTime>("Signupdate")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
 
-                    b.Property<int>("Usergroupid")
-                        .HasColumnType("int");
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Usergroupid");
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
 
-                    b.ToTable("Users");
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("Try.Models.EstatesVM", b =>
+            modelBuilder.Entity("Try.Models.RefreshToken", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("City")
+                    b.Property<DateTime>("AddedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ExpiryDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRevorked")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("JwtId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Description")
+                    b.Property<string>("Token")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Filter")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Location")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
-
-                    b.Property<int>("Propertiesid")
-                        .HasColumnType("int");
-
-                    b.Property<int>("St_num")
-                        .HasColumnType("int");
-
-                    b.Property<string>("State")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Street")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Usersid")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Propertiesid");
+                    b.HasIndex("UserId");
 
-                    b.HasIndex("Usersid");
-
-                    b.ToTable("EstatesVM");
+                    b.ToTable("RefreshTokens");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Ads", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
-                    b.HasOne("Try.DAL.Entity.Users", "Users")
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
                         .WithMany()
-                        .HasForeignKey("Usersid")
+                        .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Client_interesets", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Try.DAL.Entity.Clients", "Clients")
-                        .WithMany("Client_Interesets")
-                        .HasForeignKey("Clientsid")
+                    b.HasOne("Try.DAL.Entity.Users", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("Try.DAL.Entity.Interests", "Interests")
-                        .WithMany("Client_Interesets")
-                        .HasForeignKey("Interestsid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Clients");
-
-                    b.Navigation("Interests");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Client_orders", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Try.DAL.Entity.Clients", "Clients")
-                        .WithMany("Client_Orders")
-                        .HasForeignKey("Clientsid")
+                    b.HasOne("Try.DAL.Entity.Users", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("Try.DAL.Entity.Orders", "Orders")
-                        .WithMany("Client_Orders")
-                        .HasForeignKey("Ordersid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Clients");
-
-                    b.Navigation("Orders");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Estate", b =>
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
-                    b.HasOne("Try.DAL.Entity.Estate", null)
-                        .WithMany("Order_estate")
-                        .HasForeignKey("EstateId");
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("Try.DAL.Entity.Properties", "Properties")
-                        .WithMany("Estate")
-                        .HasForeignKey("Propertiesid")
+                    b.HasOne("Try.DAL.Entity.Users", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("Try.DAL.Entity.Users", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Try.DAL.Entity.FavoriteEstate", b =>
+                {
+                    b.HasOne("Try.DAL.Entity.Estate", "Estates")
+                        .WithMany("FavoriteEstate")
+                        .HasForeignKey("EstateId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Try.DAL.Entity.Users", "Users")
-                        .WithMany("Estate")
-                        .HasForeignKey("Usersid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("FavoriteEstates")
+                        .HasForeignKey("UsersId");
 
-                    b.Navigation("Properties");
+                    b.Navigation("Estates");
 
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Feedback", b =>
-                {
-                    b.HasOne("Try.DAL.Entity.Clients", "Clients")
-                        .WithMany("Feedback")
-                        .HasForeignKey("Clientsid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Clients");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Order_Estate", b =>
+            modelBuilder.Entity("Try.DAL.Entity.RecommendedEstate", b =>
                 {
                     b.HasOne("Try.DAL.Entity.Estate", "Estate")
                         .WithMany()
-                        .HasForeignKey("Estateid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Try.DAL.Entity.Orders", "Orders")
-                        .WithMany("Order_estate")
-                        .HasForeignKey("Orderid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Estate");
-
-                    b.Navigation("Orders");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Users", b =>
-                {
-                    b.HasOne("Try.DAL.Entity.UserGroup", "Usergroup")
-                        .WithMany("Users")
-                        .HasForeignKey("Usergroupid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Usergroup");
-                });
-
-            modelBuilder.Entity("Try.Models.EstatesVM", b =>
-                {
-                    b.HasOne("Try.DAL.Entity.Properties", "Properties")
-                        .WithMany()
-                        .HasForeignKey("Propertiesid")
+                        .HasForeignKey("EstateId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Try.DAL.Entity.Users", "Users")
                         .WithMany()
-                        .HasForeignKey("Usersid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UsersId");
 
-                    b.Navigation("Properties");
+                    b.Navigation("Estate");
 
                     b.Navigation("Users");
                 });
 
-            modelBuilder.Entity("Try.DAL.Entity.Clients", b =>
+            modelBuilder.Entity("Try.Models.RefreshToken", b =>
                 {
-                    b.Navigation("Client_Interesets");
+                    b.HasOne("Try.DAL.Entity.Users", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
 
-                    b.Navigation("Client_Orders");
-
-                    b.Navigation("Feedback");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Try.DAL.Entity.Estate", b =>
                 {
-                    b.Navigation("Order_estate");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Interests", b =>
-                {
-                    b.Navigation("Client_Interesets");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Orders", b =>
-                {
-                    b.Navigation("Client_Orders");
-
-                    b.Navigation("Order_estate");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.Properties", b =>
-                {
-                    b.Navigation("Estate");
-                });
-
-            modelBuilder.Entity("Try.DAL.Entity.UserGroup", b =>
-                {
-                    b.Navigation("Users");
+                    b.Navigation("FavoriteEstate");
                 });
 
             modelBuilder.Entity("Try.DAL.Entity.Users", b =>
                 {
-                    b.Navigation("Estate");
+                    b.Navigation("FavoriteEstates");
                 });
 #pragma warning restore 612, 618
         }

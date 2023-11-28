@@ -1,0 +1,322 @@
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\appsettings.Development.json
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\appsettings.json
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Try.StaticWebAssets.xml
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Try.exe
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Try.deps.json
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Try.runtimeconfig.json
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Try.runtimeconfig.dev.json
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Try.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Try.pdb
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ImageUploader.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\AutoMapper.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ExifPhotoReader.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Humanizer.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Net.Http.Formatting.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Web.Http.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Options.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Primitives.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.Identity.Client.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.OpenApi.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Newtonsoft.Json.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\SendGrid.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\StarkbankEcdsa.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Composition.AttributedModel.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Composition.Convention.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Composition.Hosting.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Composition.Runtime.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Composition.TypedParts.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Runtime.Caching.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\part2\est- Copy\Try - Copy\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.csproj.AssemblyReference.cache
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.GeneratedMSBuildEditorConfig.editorconfig
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.AssemblyInfoInputs.cache
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.AssemblyInfo.cs
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.csproj.CoreCompileInputs.cache
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.MvcApplicationPartsAssemblyInfo.cs
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.MvcApplicationPartsAssemblyInfo.cache
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\scopedcss\bundle\Try.styles.css
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\staticwebassets\Try.StaticWebAssets.Manifest.cache
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\staticwebassets\Try.StaticWebAssets.xml
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.RazorTargetAssemblyInfo.cache
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.csproj.CopyComplete
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.dll
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\refint\Try.dll
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.pdb
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\Try.genruntimeconfig.cache
+D:\part2\est- Copy\Try - Copy\obj\Release\net5.0\ref\Try.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\appsettings.Development.json
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\appsettings.json
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Try.StaticWebAssets.xml
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Try.exe
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Try.deps.json
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Try.runtimeconfig.json
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Try.runtimeconfig.dev.json
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Try.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Try.pdb
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ImageUploader.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\AutoMapper.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ExifPhotoReader.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Humanizer.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Net.Http.Formatting.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Web.Http.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\SendGrid.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\StarkbankEcdsa.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Composition.AttributedModel.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Composition.Convention.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Composition.Hosting.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Composition.Runtime.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Composition.TypedParts.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.csproj.AssemblyReference.cache
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.AssemblyInfoInputs.cache
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.AssemblyInfo.cs
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.csproj.CoreCompileInputs.cache
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\scopedcss\bundle\Try.styles.css
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\staticwebassets\Try.StaticWebAssets.Manifest.cache
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\staticwebassets\Try.StaticWebAssets.xml
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.RazorTargetAssemblyInfo.cache
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.csproj.CopyComplete
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\refint\Try.dll
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.pdb
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\Try.genruntimeconfig.cache
+C:\Users\mosta\Downloads\Final\Try - Copy\obj\Release\net5.0\ref\Try.dll

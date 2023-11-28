@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABEIRgOq5B0uwVQrM9PNlCAAAAAACAAAAAAAQZgAAAAEAACAAAAAE7HGzdOaMlFmBSnFnHeUcZBoI4QiONMjzlMhSXwLXWwAAAAAOgAAAAAIAACAAAACp4L3bmwFmprFIlbE4d4dnOGwTuMVq7V/q4KFd0PYpuCAAAABsaEeXp2WKj2oKb+tOtGRGKskdueoB7FfjVb0kT9K0XEAAAAASfk9lcDIHgcyJXQvmvtfzu3MynZWKwa1RCbK+19hl93C9XGXJFQrGt+j5usX1Tn31TpI8iwWwXfpwqf6fMVNW</EncryptedPassword>
+    <History>True|2022-06-08T19:41:42.8505819Z;True|2022-06-08T09:56:13.7589640+02:00;True|2022-06-08T09:45:23.9993097+02:00;True|2022-06-05T00:08:36.4272639+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SharpDbConnection">
+      <Value>Data Source=SQL5102.site4now.net%3bInitial Catalog=db_a87fa6_senkop723%3bUser Id=db_a87fa6_senkop723_admin%3bPassword=Lol3melkol</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
